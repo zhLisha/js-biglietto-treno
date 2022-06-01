@@ -11,8 +11,8 @@ const userAge = prompt ('Inserisci la tua età');
 const userTrainKm = parseInt (prompt ('Inserisci i km che dovrai percorrere'));
 
 // Applicare prezzo intero in base ai km dell'utente
-let fixedPrice = 0.21;
-let fullPrice = userTrainKm * fixedPrice;
+const fixedPrice = 0.21;
+const fullPrice = userTrainKm * fixedPrice;
 
 // Applicazione dello sconto per under 18 e over 65
 let discountOver65 = 65;
@@ -35,8 +35,6 @@ if (userAge < discoutUnder18) {
 } else {
     userMessage = 'Il totale è: ' + fullPrice  + '€';
 }
-
-console.log(userMessage);
 
 // Stampa
 alert(userMessage)
