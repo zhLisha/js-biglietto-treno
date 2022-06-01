@@ -7,8 +7,8 @@ Il prezzo avra' un massimo di 2 decimali
 */ 
 
 // Chiedere eta' e km che vuole percorrere
-const userAge = prompt ('Inserisci la tua età');
-const userTrainKm = parseInt (prompt ('Inserisci i km che dovrai percorrere'));
+const userAge = prompt('Inserisci la tua età');
+const userTrainKm = parseInt( prompt('Inserisci i km che dovrai percorrere'));
 
 
 // Applicare prezzo intero in base ai km dell'utente
@@ -43,7 +43,7 @@ let userMessage;
 
 if (userAge < discoutUnder18) {
     userMessage = 'Con lo sconto del 20%, il totale è: ' + decimalsNumber + '€';
-} else if (userAge > discountOver65) {
+} else if(userAge > discountOver65) {
     userMessage = 'Con lo sconto del 40%, il totale è: ' + decimalsNumber + '€';
 } else {
     userMessage = 'Il totale è: ' + decimalsNumber  + '€';
