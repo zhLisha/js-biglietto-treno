@@ -43,7 +43,7 @@ let userMessage;
 
 if (userAge < discoutUnder18) {
     userMessage = 'Con lo sconto del 20%, il totale è: ' + decimalsNumber + '€';
-} else if(userAge > discountOver65) {
+} else if (userAge > discountOver65) {
     userMessage = 'Con lo sconto del 40%, il totale è: ' + decimalsNumber + '€';
 } else {
     userMessage = 'Il totale è: ' + decimalsNumber  + '€';
